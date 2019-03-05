@@ -1,0 +1,6 @@
+usr/local/bin/bitlioncoin-qt usr/bin
+share/pixmaps/bitlioncoin32.xpm usr/share/pixmaps
+share/pixmaps/bitlioncoin16.xpm usr/share/pixmaps
+share/pixmaps/bitlioncoin128.png usr/share/pixmaps
+debian/bitlioncoin-qt.desktop usr/share/applications
+debian/bitlioncoin-qt.protocol usr/share/kde4/services/

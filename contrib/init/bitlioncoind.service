@@ -1,0 +1,22 @@
+[Unit]
+Description=bitlioncoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitlioncoincore
+Group=bitlioncoincore
+
+Type=forking
+PIDFile=/var/lib/bitlioncoind/bitlioncoind.pid
+ExecStart=/usr/bin/bitlioncoind -daemon -pid=/var/lib/bitlioncoind/bitlioncoind.pid \
+-conf=/etc/bitlioncoincore/bitlioncoin.conf -datadir=/var/lib/bitlioncoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

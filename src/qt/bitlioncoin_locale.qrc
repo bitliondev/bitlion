@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bitlioncoin_bg.qm</file>
+        <file alias="de">locale/bitlioncoin_de.qm</file>
+        <file alias="en">locale/bitlioncoin_en.qm</file>
+        <file alias="es">locale/bitlioncoin_es.qm</file>
+        <file alias="fi">locale/bitlioncoin_fi.qm</file>
+        <file alias="fr">locale/bitlioncoin_fr.qm</file>
+        <file alias="it">locale/bitlioncoin_it.qm</file>
+        <file alias="ja">locale/bitlioncoin_ja.qm</file>
+        <file alias="nl">locale/bitlioncoin_nl.qm</file>
+        <file alias="pl">locale/bitlioncoin_pl.qm</file>
+        <file alias="pt">locale/bitlioncoin_pt.qm</file>
+        <file alias="ru">locale/bitlioncoin_ru.qm</file>
+        <file alias="sk">locale/bitlioncoin_sk.qm</file>
+        <file alias="sv">locale/bitlioncoin_sv.qm</file>
+        <file alias="vi">locale/bitlioncoin_vi.qm</file>
+        <file alias="zh_CN">locale/bitlioncoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bitlioncoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

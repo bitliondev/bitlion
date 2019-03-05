@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=bitlioncoin Core
+Comment=bitlioncoin P2P Cryptocurrency
+Comment[de]=Verbinde mit dem bitlioncoin peer-to-peer Netzwerk
+Comment[fr]=bitlioncoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=bitlioncoin, eşten eşe kriptografik sanal para birimi
+Exec=bitlioncoin-qt %u
+Terminal=false
+Type=Application
+Icon=bitlioncoin128
+MimeType=x-scheme-handler/bitlioncoin;
+Categories=Office;Finance;
